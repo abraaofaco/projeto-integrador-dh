@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".screen.fragment.series.SeasonsFragment">
+
+    <include
+        android:id="@+id/icn_toolbar"
+        layout="@layout/inc_collapsing_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="350dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_seasons"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:orientation="vertical"
+        android:paddingHorizontal="5dp"
+        android:paddingVertical="20dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:listitem="@layout/item_series_info" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">A5+</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="action_sign_in">Entrar</string>
+    <string name="action_sign_out">Sair</string>
+    <string name="action_sign_in_up">Realizar cadastro</string>
+    <string name="action_sign_in_google">Conectar com o google</string>
+    <string name="action_sign_in_facebook">Conectar com o Facebook</string>
+    <string name="action_link_google">Vincular ao google</string>
+    <string name="action_link_facebook">Vincular ao facebook</string>
+    <string name="action_settings">Configurações</string>
+    <string name="action_forgot_password">Esqueci a senha</string>
+
+    <string name="prompt_password">Senha</string>
+    <string name="prompt_email">E-mail</string>
+    <string name="prompt_password_confirmation">Confirmação da senha</string>
+    <string name="prompt_search_hint">Buscar por série ou filme</string>
+
+    <string name="title_settings">Configurações</string>
+    <string name="title_movie">Filmes</string>
+    <string name="title_tv_series">Séries</string>
+
+    <string name="msg_forgot_password">
+        "Nós te enviamos um e-mail com instruções para trocar sua senha"
+    </string>
+    <string name="home">Inicio</string>
+    <string name="trailer">Trailer</string>
+    <string name="seasons">Temporadas</string>
+    <string name="share">Compartilhar</string>
+    <string name="success">" Operação realizada com sucesso"</string>
+    <string name="episodes">Episódios</string>
+    <string name="i_am_here">Estou aqui</string>
+
+    <!-- Permissions -->
+    <string name="permission_rationale_location">O acesso ao serviço de localização é necessário para demonstrar o recurso \'minha localização\', que mostra sua localização atual no mapa.</string>
+    <string name="location_permission_denied">Este aplicativo requer permissão de localização para ativar o recurso \'minha localização \'. Tente novamente e conceda acesso para usar o local. \nSe a permissão foi negada permanentemente, ela pode ser ativada em Configurações do sistema &gt; Aplicativos &gt; \'A5+\' .</string>
+    <string name="permission_required_toast">A permissão de localização é necessária para esta opção.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="youtube_failure">Falha ao inicializar a API do Youtube</string>
+
+</resources>

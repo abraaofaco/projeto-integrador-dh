@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/series_nav_graph"
+    app:startDestination="@id/trailerListFragment">
+    <fragment
+        android:id="@+id/trailerListFragment"
+        android:name="com.pidh.a5plus.screen.fragment.trailer.TrailerListFragment"
+        android:label="fragment_trailer_list"
+        tools:layout="@layout/fragment_trailer_list" >
+        <action
+            android:id="@+id/action_trailerListFragment_to_youTubePlayerFragment"
+            app:destination="@id/youTubePlayerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/youTubePlayerFragment"
+        android:name="com.pidh.a5plus.screen.fragment.trailer.YouTubeVideoPlayerFragment"
+        android:label="fragment_you_tube_player"
+        tools:layout="@layout/fragment_youtube_video_player" />
+</navigation>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <solid android:color="@color/user_score_bck" />
+    <stroke
+        android:width="@dimen/user_score_stroke"
+        android:color="@color/user_score_1" />
+    <size
+        android:width="@dimen/user_score_size"
+        android:height="@dimen/user_score_size" />
+</shape>

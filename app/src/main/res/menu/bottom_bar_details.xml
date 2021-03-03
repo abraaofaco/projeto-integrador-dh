@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_go_home"
+        android:icon="@drawable/ic_home"
+        android:title="@string/home"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_go_trailer"
+        android:icon="@drawable/ic_trailer"
+        android:title="@string/trailer"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_go_seasons"
+        android:icon="@drawable/ic_seasons"
+        android:title="@string/seasons"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_share"
+        android:icon="@drawable/ic_share"
+        android:title="@string/share"
+        app:showAsAction="ifRoom"/>
+
+</menu>
