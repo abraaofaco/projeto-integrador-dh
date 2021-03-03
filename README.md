@@ -55,16 +55,16 @@
 ## Configurações
 
 - Adicione um novo projeto no [Firebase](https://console.firebase.google.com/u/0/?pli=1)
-- Em *Firebase Authentication* habilitar as opções: Email/Senha, Google e Facebook
-- Em *Configurações Firebase* registrar o certificado SHA
-- Salvar aquivo *google-services.json* dentro da pasta *app*
+- Em `Firebase Authentication` habilitar as opções: Email/Senha, Google e Facebook
+- Em `Configurações Firebase` registrar o certificado SHA
+- Salvar aquivo `google-services.json` dentro da pasta *app*
 - Criar projeto no [Facebook](https://developers.facebook.com/apps/)
-- Gerar chave de acesso a api do [TMDB](https://developers.themoviedb.org/3/getting-started/introduction)
-- Criar arquivo *gradle.properties* dentro da pasta *app*
+- Gerar chave de acesso a API do [TMDB](https://developers.themoviedb.org/3/getting-started/introduction)
+- Criar arquivo `gradle.properties` dentro da pasta *app*
 - Em [Google Developers](https://console.developers.google.com/) habilitar: Maps SDK for Android, Place API e YouTube API
 - Mudar plano do firebase para permitir integração com o Google cloud 
 
-### Exemplo *gradle.properties*
+#### Exemplo `gradle.properties`
 ```js
 TMDB_API_KEY="SUA_CHAVE_TMDB"
 FACEBOOK_APP_ID="CADASTRO_APP_FACEBBOK"
